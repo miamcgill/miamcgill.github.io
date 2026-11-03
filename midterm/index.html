@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mcgill midterm</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<div class="wrapper"> 
+<div class="container">
+<body>
+    <header>   
+         <!--image with heading position on top-->
+  <img src="images/FullMoon2010.jpg"       
+
+
+    </header>
+
+  <!--nav to sections -->
+  <nav> 
+    <li href="#artical">About</li>
+    <li href="#facts">Facts</li>
+    <li href="#Contact">Contact</li>
+  </nav>
+
+<!-- Main Stuff -->
+
+<Main>
+
+<div class="stage"
+<img src="images/Craters.jpg" 
+
+<!--pic flots so writing goes around it-->
+<section id="artical" class="artical">
+  <h2>Wonders of the moon</h2>
+<img src="images/Craters.jpg" alt="Detailed photograph of the Moon showing its craters" class="moon">
+  
+<p> The Moon is one of the most fascinating objects in our night sky. Although it may look like it produces its own light, the Moon actually reflects light from the Sun, making it glow against the dark night sky. Throughout the month, the Moon appears to change shape as it orbits Earth. Sometimes it looks like a thin crescent, while other times it appears as a bright, full circle. These changing shapes are known as the phases of the Moon</p>
+
+<p> The Moon's surface is covered with large, dark plains, mountains, and craters that formed billions of years ago. Its gravity also affects Earth by controlling the rise and fall of ocean tides. Even though the Moon is our closest celestial neighbour, it reminds us of how much there is still to discover about the universe beyond our planet.</p>
+</section>
+
+
+<!--facts in list-->
+<section id="facts" class="facts">
+    <h2>Some fun facts about the moon you might not know!</h2>
+    <ul>
+        <li>The moon is getting further away from Earth at a rate of about 38 mm per year.</li>
+        <li>There is no atmosphere on the moon, so sound cannot travel through it.</li>
+        <li>The moon's surface is covered in a layer of fine dust called regolith.</li>
+        <li>It rotates at the same rate it orbits, so we always see the same side of the moon.</li>
+        <li>More than 105 robotic spacecraft have explored the Moon</li>
+    </ul>
+</section>
+
+<!--contact form-->
+<section id="Contact to learn more!" class="Contact to learn more!">
+    <h2>Contact me to learn more!</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Tell Me Your Favorite Fun Fact!</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <label for="message">Any questions?</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <h3>Did you learn something new?</h3>
+        <form action="submit_form.php" method="post">
+            <input type="radio" id="yes" name="learned" value="yes" required>
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="learned" value="no">
+            <label for="no">No</label><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+</Main>
+
+<!--footer with copyright-->
+<footer>
+    <p>&copy; 2026, Mia McGill. All rights reserved. Created with HTML and CSS.</p>
+
+ </div>   
+</body>
+</html>

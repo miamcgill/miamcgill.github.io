@@ -1,0 +1,66 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(19, 18, 22);
+    color: rgb(164, 164, 164)
+}
+
+
+nav li {
+  /* change block level property */
+  display: inline-block; 
+  width: 297px;
+  /* usally change text the link*/
+  font-size: 3rem;   
+  text-align: center;
+  border-right: 2px solid rgb(164, 164, 164);
+  padding:1rem;
+}
+
+nav li:last-child{
+    border-right:none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.stage {
+
+    width: 96%;  
+    height: 1180px;
+    background-color:rgb(14, 16, 58);
+    margin-top: px;
+}
+
+p {
+    font-size: 1.5rem
+}
+    
+form {
+    border: 3px dotted #474646;
+    padding: 10px;
+    margin: 10px 0;
+}
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.image{
+    height:80px;
+    width: 100px;
+    
+}
+.moon {
+    width: 210px;
+    height: auto;
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 2rem;
+}
